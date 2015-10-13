@@ -1,6 +1,12 @@
 public class FizzBuzz {
 
-    public int converte(int i) {
-        return 2;
+    public String converte(int i) {
+
+        if (i == 3) {
+            return "Fizz";
+        }
+
+
+        return "2";
     }
 }
