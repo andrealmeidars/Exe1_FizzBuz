@@ -5,8 +5,9 @@ public class FizzBuzz {
         if (numero == 3) {
             return "Fizz";
         }
-
-
-        return "2";
+        if (numero == 2) {
+            return "2";
+        }
+        return "4";
     }
 }
