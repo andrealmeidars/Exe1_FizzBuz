@@ -1,8 +1,8 @@
 public class FizzBuzz {
 
-    public String converte(int i) {
+    public String converte(int numero) {
 
-        if (i == 3) {
+        if (numero == 3) {
             return "Fizz";
         }
 
